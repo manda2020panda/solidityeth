@@ -1041,6 +1041,60 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@manda2020panda/solidityeth@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "@manda2020panda/solidityeth@workspace:."
+  dependencies:
+    "@commitlint/cli": ^17.3.0
+    "@commitlint/config-conventional": ^17.3.0
+    "@ethersproject/abi": ^5.7.0
+    "@ethersproject/abstract-signer": ^5.7.0
+    "@ethersproject/bignumber": ^5.7.0
+    "@ethersproject/bytes": ^5.7.0
+    "@ethersproject/providers": ^5.7.2
+    "@nomicfoundation/hardhat-chai-matchers": ^1.0.4
+    "@nomicfoundation/hardhat-network-helpers": ^1.0.6
+    "@nomicfoundation/hardhat-toolbox": ^2.0.0
+    "@nomiclabs/hardhat-ethers": ^2.2.1
+    "@nomiclabs/hardhat-etherscan": ^3.1.2
+    "@trivago/prettier-plugin-sort-imports": ^4.0.0
+    "@typechain/ethers-v5": ^10.1.1
+    "@typechain/hardhat": ^6.1.4
+    "@types/chai": ^4.3.4
+    "@types/fs-extra": ^9.0.13
+    "@types/mocha": ^10.0.0
+    "@types/node": ^18.11.9
+    "@typescript-eslint/eslint-plugin": ^5.44.0
+    "@typescript-eslint/parser": ^5.44.0
+    chai: ^4.3.7
+    commitizen: ^4.2.5
+    cross-env: ^7.0.3
+    cz-conventional-changelog: ^3.3.0
+    dotenv: ^16.0.3
+    eslint: ^8.28.0
+    eslint-config-prettier: ^8.5.0
+    ethers: ^5.7.2
+    fs-extra: ^10.1.0
+    hardhat: ^2.12.2
+    hardhat-gas-reporter: ^1.0.9
+    husky: ^8.0.2
+    lint-staged: ^13.0.4
+    lodash: ^4.17.21
+    mocha: ^10.1.0
+    pinst: ^3.0.0
+    prettier: ^2.8.0
+    prettier-plugin-solidity: ^1.0.0
+    shx: ^0.3.4
+    solhint: ^3.3.7
+    solhint-plugin-prettier: ^0.0.5
+    solidity-coverage: ^0.8.2
+    ts-generator: ^0.1.1
+    ts-node: ^10.9.1
+    typechain: ^8.1.1
+    typescript: ^4.9.3
+  languageName: unknown
+  linkType: soft
+
 "@metamask/eth-sig-util@npm:^4.0.0":
   version: 4.0.1
   resolution: "@metamask/eth-sig-util@npm:4.0.1"
@@ -1473,60 +1527,6 @@ __metadata:
   checksum: 52dc02259d98da517fae4cb3a0a3850227bdae4939dda1980b788a7670636ca2b4a01b58df03dd5f65c1e3cb70c50fa8ce5762b582b3f499ec30ee5ce1fd9380
   languageName: node
   linkType: hard
-
-"@prb/hardhat-template@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "@prb/hardhat-template@workspace:."
-  dependencies:
-    "@commitlint/cli": ^17.3.0
-    "@commitlint/config-conventional": ^17.3.0
-    "@ethersproject/abi": ^5.7.0
-    "@ethersproject/abstract-signer": ^5.7.0
-    "@ethersproject/bignumber": ^5.7.0
-    "@ethersproject/bytes": ^5.7.0
-    "@ethersproject/providers": ^5.7.2
-    "@nomicfoundation/hardhat-chai-matchers": ^1.0.4
-    "@nomicfoundation/hardhat-network-helpers": ^1.0.6
-    "@nomicfoundation/hardhat-toolbox": ^2.0.0
-    "@nomiclabs/hardhat-ethers": ^2.2.1
-    "@nomiclabs/hardhat-etherscan": ^3.1.2
-    "@trivago/prettier-plugin-sort-imports": ^4.0.0
-    "@typechain/ethers-v5": ^10.1.1
-    "@typechain/hardhat": ^6.1.4
-    "@types/chai": ^4.3.4
-    "@types/fs-extra": ^9.0.13
-    "@types/mocha": ^10.0.0
-    "@types/node": ^18.11.9
-    "@typescript-eslint/eslint-plugin": ^5.44.0
-    "@typescript-eslint/parser": ^5.44.0
-    chai: ^4.3.7
-    commitizen: ^4.2.5
-    cross-env: ^7.0.3
-    cz-conventional-changelog: ^3.3.0
-    dotenv: ^16.0.3
-    eslint: ^8.28.0
-    eslint-config-prettier: ^8.5.0
-    ethers: ^5.7.2
-    fs-extra: ^10.1.0
-    hardhat: ^2.12.2
-    hardhat-gas-reporter: ^1.0.9
-    husky: ^8.0.2
-    lint-staged: ^13.0.4
-    lodash: ^4.17.21
-    mocha: ^10.1.0
-    pinst: ^3.0.0
-    prettier: ^2.8.0
-    prettier-plugin-solidity: ^1.0.0
-    shx: ^0.3.4
-    solhint: ^3.3.7
-    solhint-plugin-prettier: ^0.0.5
-    solidity-coverage: ^0.8.2
-    ts-generator: ^0.1.1
-    ts-node: ^10.9.1
-    typechain: ^8.1.1
-    typescript: ^4.9.3
-  languageName: unknown
-  linkType: soft
 
 "@scure/base@npm:~1.1.0":
   version: 1.1.1
@@ -5616,9 +5616,9 @@ __metadata:
   linkType: hard
 
 "http-cache-semantics@npm:^4.1.0":
-  version: 4.1.0
-  resolution: "http-cache-semantics@npm:4.1.0"
-  checksum: 974de94a81c5474be07f269f9fd8383e92ebb5a448208223bfb39e172a9dbc26feff250192ecc23b9593b3f92098e010406b0f24bd4d588d631f80214648ed42
+  version: 4.1.1
+  resolution: "http-cache-semantics@npm:4.1.1"
+  checksum: 83ac0bc60b17a3a36f9953e7be55e5c8f41acc61b22583060e8dedc9dd5e3607c823a88d0926f9150e571f90946835c7fe150732801010845c72cd8bbff1a236
   languageName: node
   linkType: hard
 
